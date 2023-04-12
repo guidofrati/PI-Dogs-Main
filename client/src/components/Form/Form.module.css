@@ -1,0 +1,21 @@
+.Formulario {
+  border: 1px solid black;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  color: #52b788;
+  width: auto;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  height: 900px;
+  padding: 100px 0px 20px 100px;
+  font-size: 23px;
+  font-weight: bold;
+  backdrop-filter: blur(10px);
+}
+
+.back {
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-textura-tierra-concepto-jardineria_23-2148198718.jpg");
+}

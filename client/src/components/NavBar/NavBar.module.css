@@ -1,0 +1,36 @@
+.nav {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background-image: url("https://i.pinimg.com/originals/95/5d/69/955d6952147df2e5f067a942efbd9106.jpg");
+}
+
+.toplane {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.nav h1 {
+  color: #fefefe;
+  font-weight: 600;
+}
+
+.nav h1:hover {
+  color: #774936;
+}
+
+.btn {
+  border-radius: 1px;
+  margin: 5px;
+  padding: 4px;
+  border: 1px transparent;
+  transition: background-color 250ms ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: #8a5a44;
+  transition: background-color 250ms ease-in-out;
+}

@@ -1,0 +1,53 @@
+.bottom {
+  display: inline;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 3px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.item button {
+  border: 0px solid black;
+  width: 30px;
+  height: 30px;
+  color: black;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+.item button:hover {
+  background-color: green;
+  color: #fefefe;
+  transition: background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+.itemActive {
+  display: inline-block;
+  margin-right: 3px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+.itemActive button {
+  border: 0px solid black;
+  width: 30px;
+  height: 30px;
+  color: #fefefe;
+  background-color: green;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* .itemActive button:hover {
+  color: #fefefe;
+  transition: background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+} */

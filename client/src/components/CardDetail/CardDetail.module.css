@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  height: 80vh;
+  padding: 1.5vh;
+  margin: 1vh;
+  width: 90vw;
+}
+
+.imagen {
+  display: flex;
+  padding: 1vh;
+}
+.imagen img {
+  max-width: 30vw;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+}
+
+.container {
+  padding: 1vh;
+  background-image: url("https://i.pinimg.com/originals/95/5d/69/955d6952147df2e5f067a942efbd9106.jpg");
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  margin-top: 1vh;
+}
+
+.btn {
+  position: absolute;
+  margin: 3vh;
+  z-index: 3;
+  left: 45%;
+}
+
+.btn button {
+  transition: background-color 250ms ease-in-out;
+  width: 80px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.btn button:hover {
+  background-color: #8a5a44;
+  transition: background-color 250ms ease-in-out;
+}
+
+.info {
+  font-weight: 400;
+}
+
+.detail h3 {
+  margin: 10px;
+}
